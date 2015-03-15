@@ -1,0 +1,40 @@
+{
+  "models": [
+    {
+      "name": "User",
+      "properties": [
+        {
+          "name": "firstName",
+          "visible": true
+        },
+        {
+          "name": "lastName",
+          "visible": true
+        },
+        {
+          "name": "email",
+          "key": true,
+          "visible": true,
+          "type": "email"
+        },
+        {
+          "name": "password",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "name": "modelname2",
+      "properties": [
+        {
+          "name": "m2property1",
+          "deflt": "m2p1"
+        },
+        {
+          "name": "m2property2",
+          "deflt": "m2p2"
+        }
+      ]
+    }
+  ]
+}

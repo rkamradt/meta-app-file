@@ -1,0 +1,40 @@
+{
+  "name": "meta-app-file",
+  "version": "0.0.0",
+  "description": "A file store for the MetaApp framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rkamradt/meta-app-file.git"
+  },
+  "keywords": [
+    "node",
+    "file",
+    "store",
+    "meta-app"
+  ],
+  "author": "Randal L Kamradt Sr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rkamradt/meta-app-file/issues"
+  },
+  "homepage": "https://github.com/rkamradt/meta-app-file",
+  "dependencies": {
+    "meta-app": "^0.2.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-jsdoc": "^0.6.3",
+    "grunt-simple-mocha": "^0.4.0",
+    "jshint": "^2.5.1",
+    "load-grunt-tasks": "^0.5.0",
+    "mocha": "^1.20.1",
+    "should": "^4.0.4"
+  }
+}
