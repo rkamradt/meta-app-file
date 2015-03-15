@@ -1,6 +1,6 @@
 {
   "name": "meta-app-file",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A file store for the MetaApp framework",
   "main": "index.js",
   "scripts": {
